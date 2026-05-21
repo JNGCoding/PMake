@@ -36,7 +36,6 @@ while index < argc:
 
     index += 1
 
-# "C:\\Coding Projects\\PMake\\CProgram\\compile.pmake"
 if f is not None:
     CompilerExecutor(Config.CreateConfig(f, *config_commands))()
 else:
